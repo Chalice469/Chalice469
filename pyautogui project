@@ -1,0 +1,3 @@
+#!/usr/bin python3
+#This script will begin a suite of tools used to automatically draw meaning from text that has been added to your clipboard
+import pyautogui as pg
