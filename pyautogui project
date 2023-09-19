@@ -1,3 +1,13 @@
 #!/usr/bin python3
-#This script will begin a suite of tools used to automatically draw meaning from text that has been added to your clipboard
+#this script be a tool for documenting your cursor position
 import pyautogui as pg
+def mouse_track(name, buffer= []):
+  string = input("note cursor position: ")
+  if string == "q"
+    return name, buffer
+  else:
+    sequence = name + " " + string + buffer
+    buffer.append(sequence)
+    return mouse_track(name)
+
+print(mouse_track('toad'))
