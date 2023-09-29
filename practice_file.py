@@ -9,5 +9,3 @@ def move(coordinates, time, rest, comment):
     """
     x, y = coordinates
     return "moveTo({}, {}, duration ={}); sleep({}) #{};".format(x, y, time, rest, comment)
-
-
