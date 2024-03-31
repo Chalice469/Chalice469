@@ -11,4 +11,4 @@ def move(coordinates, time, rest, comment):
     return "pg.moveTo({}, {}, duration ={}); sleep({}) #{};".format(x, y, time, rest, comment)
 
 pair = 100, 100
-print(move(pair, '.5', '1', 'line 1 is for declaring the funtion name'))
+print(move(pair, '.5', '1', 'line 1 is for declaring the function name'))
